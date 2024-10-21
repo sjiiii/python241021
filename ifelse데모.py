@@ -24,3 +24,5 @@ lst = ["apple", 100, 3.14]
 for item in lst:
     print(item)
 
+tp = (1,2,3)
+print(tp)
