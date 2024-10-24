@@ -1,353 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>832</width>
-    <height>899</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>MainWindow</string>
-  </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>50</y>
-      <width>171</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>휴먼매직체</family>
-      <pointsize>24</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>제품ID:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>110</y>
-      <width>171</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>휴먼매직체</family>
-      <pointsize>24</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>제품명:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>170</y>
-      <width>171</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>휴먼매직체</family>
-      <pointsize>24</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>제품가격:</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="prodID">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>50</y>
-      <width>281</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>바탕체</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="prodName">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>110</y>
-      <width>281</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>바탕체</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="prodPrice">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>170</y>
-      <width>281</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>바탕체</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>50</y>
-      <width>201</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>휴먼매직체</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>입력</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>110</y>
-      <width>201</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>휴먼매직체</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>수정</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>170</y>
-      <width>201</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>휴먼매직체</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>삭제</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>230</y>
-      <width>201</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>휴먼매직체</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>검색</string>
-    </property>
-   </widget>
-   <widget class="QTableWidget" name="tableWidget">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>290</y>
-      <width>641</width>
-      <height>461</height>
-     </rect>
-    </property>
-    <property name="rowCount">
-     <number>50</number>
-    </property>
-    <property name="columnCount">
-     <number>3</number>
-    </property>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <row/>
-    <column/>
-    <column/>
-    <column/>
-   </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>832</width>
-     <height>21</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QStatusBar" name="statusbar"/>
- </widget>
- <resources/>
- <connections>
-  <connection>
-   <sender>pushButton</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>addProduct()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>683</x>
-     <y>94</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>755</x>
-     <y>93</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>updateProduct()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>664</x>
-     <y>149</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>755</x>
-     <y>154</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>removeProduct()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>665</x>
-     <y>209</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>755</x>
-     <y>216</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>getProduct()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>658</x>
-     <y>269</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>759</x>
-     <y>274</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
- <slots>
-  <slot>addProduct()</slot>
-  <slot>updateProduct()</slot>
-  <slot>removeProduct()</slot>
-  <slot>getProduct()</slot>
- </slots>
-</ui>
+import sys
+from PyQt5.QtWidgets import *
+from PyQt5.QtCore import pyqtSlot, Qt
+from PyQt5 import uic
+import sqlite3
+import os.path
+
+# ProductDatabase 클래스를 같은 파일에 정의
+class ProductDatabase:
+    def __init__(self, db_name="ProductList.db"):
+        self.db_name = db_name
+        self.con = self._connect_db()
+        self.cur = self.con.cursor()
+
+    def _connect_db(self):
+        if os.path.exists(self.db_name):
+            return sqlite3.connect(self.db_name)
+        else:
+            con = sqlite3.connect(self.db_name)
+            cur = con.cursor()
+            cur.execute(
+                "CREATE TABLE Products (id INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, Price INTEGER);"
+            )
+            return con
+
+    def add_product(self, name, price):
+        self.cur.execute("INSERT INTO Products (Name, Price) VALUES(?, ?);", (name, price))
+        self.con.commit()
+
+    def update_product(self, prod_id, name, price):
+        self.cur.execute("UPDATE Products SET Name = ?, Price = ? WHERE id = ?;", (name, price, prod_id))
+        self.con.commit()
+
+    def remove_product(self, prod_id):
+        self.cur.execute("DELETE FROM Products WHERE id = ?;", (prod_id,))
+        self.con.commit()
+
+    def get_products(self):
+        self.cur.execute("SELECT * FROM Products;")
+        return self.cur.fetchall()
+
+
+# UI 디자인 파일 로드
+form_class = uic.loadUiType("Chap10_ProductList.ui")[0]
+
+class DemoForm(QMainWindow, form_class):
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
+
+        # 데이터베이스 클래스 인스턴스 생성
+        self.db = ProductDatabase()
+
+        # 초기값 셋팅
+        self.id = 0
+        self.name = ""
+        self.price = 0
+
+        # QTableWidget의 컬럼폭 셋팅
+        self.tableWidget.setColumnWidth(0, 100)
+        self.tableWidget.setColumnWidth(1, 200)
+        self.tableWidget.setColumnWidth(2, 100)
+        self.tableWidget.setHorizontalHeaderLabels(["제품ID", "제품명", "가격"])
+
+        # 네비게이션 및 더블클릭 연결
+        self.prodID.returnPressed.connect(lambda: self.focusNextChild())
+        self.prodName.returnPressed.connect(lambda: self.focusNextChild())
+        self.prodPrice.returnPressed.connect(lambda: self.focusNextChild())
+        self.tableWidget.doubleClicked.connect(self.doubleClick)
+
+        # 데이터 표시
+        self.getProduct()
+
+    def addProduct(self):
+        name = self.prodName.text()
+        price = self.prodPrice.text()
+        self.db.add_product(name, price)
+        self.getProduct()
+
+    def updateProduct(self):
+        prod_id = self.prodID.text()
+        name = self.prodName.text()
+        price = self.prodPrice.text()
+        self.db.update_product(prod_id, name, price)
+        self.getProduct()
+
+    def removeProduct(self):
+        prod_id = self.prodID.text()
+        self.db.remove_product(prod_id)
+        self.getProduct()
+
+    def getProduct(self):
+        self.tableWidget.clearContents()
+        products = self.db.get_products()
+        row = 0
+        for item in products:
+            int_as_strID = "{:10}".format(item[0])
+            int_as_strPrice = "{:10}".format(item[2])
+
+            # 제품 ID
+            itemID = QTableWidgetItem(int_as_strID)
+            itemID.setTextAlignment(Qt.AlignRight)
+            self.tableWidget.setItem(row, 0, itemID)
+
+            # 제품명
+            self.tableWidget.setItem(row, 1, QTableWidgetItem(item[1]))
+
+            # 가격
+            itemPrice = QTableWidgetItem(int_as_strPrice)
+            itemPrice.setTextAlignment(Qt.AlignRight)
+            self.tableWidget.setItem(row, 2, itemPrice)
+
+            row += 1
+
+    def doubleClick(self):
+        self.prodID.setText(self.tableWidget.item(self.tableWidget.currentRow(), 0).text())
+        self.prodName.setText(self.tableWidget.item(self.tableWidget.currentRow(), 1).text())
+        self.prodPrice.setText(self.tableWidget.item(self.tableWidget.currentRow(), 2).text())
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    demoForm = DemoForm()
+    demoForm.show()
+    app.exec_()
